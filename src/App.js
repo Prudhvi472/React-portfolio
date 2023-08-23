@@ -1,6 +1,7 @@
 import About from "./components/About.jsx";
 import Contact from "./components/Contact.jsx";
 import Home from "./components/Home.jsx";
+import Internship from "./components/Internship.jsx";
 import NavBar from "./components/NavBar.jsx";
 import Skills from "./components/Skills.jsx";
 import SocialLinks from "./components/SocialLinks.jsx";
@@ -14,7 +15,9 @@ function App() {
       <About />
       <Skills />
       <SocialLinks />
+      <Internship />
       <Contact />
+
     </div>
   );
 }
